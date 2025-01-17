@@ -2,7 +2,7 @@ import { loadStripe } from '@stripe/stripe-js'
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const stripePromise=loadStripe('pk_test_51Q18tbH1pnhBHZMNOl0seOpCUNgnbSv7I9jSGot2atjFf7mAJ9pepq9Y7gZlb6getIoRt9A6hlvNqZnH6AAE8UdA00jMRA7WMW')
+const stripePromise=loadStripe('')
 
 const Payment = () => {
     const navigate=useNavigate()
